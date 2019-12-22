@@ -1,4 +1,5 @@
 //#define _CRT_SECURE_NO_WARNINGS 1
+#include <stdio.h>
 
 //int main()
 //{
@@ -13,8 +14,22 @@
 //	}
 //	printf("%d\n", a);
 //}
+//int main()
+//{
+//	int a = 24;
+//	int b = 18;
+//	int c = 0;
+//	while (a%b)
+//	{
+//		c = a%b;
+//		a = b;
+//		b = c;
+//	}
+//	printf("%d\n", b);
+//	return 0;
+//}
 
-//#include <stdio.h>
+
 //void main()
 //{
 //	int i, j, arr[10][10];
@@ -26,21 +41,28 @@
 //		printf("%d*%d=%d\n", i, j, i*j);
 //}
 
+//int  main()
+//{
+//	int i = 0;
+//	for (i = 1; i <= 9; i++)
+//	{
+//		int j = 0;
+//		for (j = 1; j <= i; j++)
+//		{
+//			printf("%d*%d=%-2d",i*j,i,j);
+//		}
+//		printf("\n");
+//	}
+//	return 0;
+//}
 
 
 //int main()
 //{
 //	int i = 0;
-//	int MAX = 0;
-//    int arr[10] = { 0 };
-//	printf("请任意输入10个整数：");
-//	for (i = 0; i <= 9; i++)
-//	{
-//		scanf("%d", &arr[i]);
-//	}
-//	MAX = arr[i];
-//
-//	for (i = 1; i <= 9; i++)
+//	int MAX = arr[0];
+//  int arr[10] = {1,2,3,4,5,6,7,8,9,10};
+//    for (i = 1; i <10  ; i++)
 //	{
 //		if (arr[i] > MAX)
 //		{
@@ -48,9 +70,7 @@
 //		}
 //	}
 //	printf("最大的数:%d", MAX);
-//
-//	return 0;
-////
+//    return 0;
 //}
 
 //int main()
@@ -84,4 +104,4 @@
 //	}
 //	printf("sum is %f\n", sum);
 //	return 0;
-////}
+//}
