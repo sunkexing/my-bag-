@@ -1,5 +1,14 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include<stdio.h>
+
+void swap(int*p,int*l)
+{
+	int tem = *p;
+	*p = *l;
+	*l = tem;
+
+}
+
 int main()
 {
 	int a = 0;
@@ -9,27 +18,16 @@ int main()
 	scanf("%d%d%d", &a, &b, &c);
 	if (a>b)
 	{
-		t = a;
-		a = b;
-		b = t;
-
+		swap(&a, &b);
 	}
 	if (a>c)
 	{
-		t = c;
-		c = a;
-		a = t;
+		swap(&a, &c);
 	}
 	if (b > c)
 	{
-		t = b;
-		b = c;
-		c = t;
-
-
+		swap(&b, &c);
 	}
 	printf("small to big:%d%d%d\n", a, b, c);
-
-	return 0;
-
+    return 0;
 }
