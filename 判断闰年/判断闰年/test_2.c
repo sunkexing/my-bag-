@@ -13,7 +13,7 @@ int main()
 	{
 		if (is_leap_year(year)==1)
 		{
-			printf("%d", year);
+			printf("%d\n", year);
 		}
 	}
 	return 0;
