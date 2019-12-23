@@ -1,8 +1,9 @@
-﻿生成启动时间为 2019/12/21 星期六 23:25:13。
+﻿生成启动时间为 2019/12/23 星期一 17:11:30。
      1>项目“C:\Users\Administrator\Desktop\新建文件夹\my bag\my-bag-\青蛙跳台问题\青蛙跳台问题\青蛙跳台问题.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          E:\迅雷下载\vs\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "青蛙跳台阶.c"
          青蛙跳台阶.c
+     1>c:\users\administrator\desktop\新建文件夹\my bag\my-bag-\青蛙跳台问题\青蛙跳台问题\青蛙跳台阶.c(18): warning C4715: “fib”: 不是所有的控件路径都返回值
        Link:
          E:\迅雷下载\vs\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\新建文件夹\my bag\my-bag-\青蛙跳台问题\Debug\青蛙跳台问题.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Administrator\Desktop\新建文件夹\my bag\my-bag-\青蛙跳台问题\Debug\青蛙跳台问题.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Desktop\新建文件夹\my bag\my-bag-\青蛙跳台问题\Debug\青蛙跳台问题.lib" /MACHINE:X86 "Debug\青蛙跳台阶.obj"
          青蛙跳台问题.vcxproj -> C:\Users\Administrator\Desktop\新建文件夹\my bag\my-bag-\青蛙跳台问题\Debug\青蛙跳台问题.exe
@@ -10,4 +11,4 @@
 
 生成成功。
 
-已用时间 00:00:01.04
+已用时间 00:00:00.78
